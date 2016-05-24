@@ -11,8 +11,11 @@ var baseFontSize = 16;
 module.exports = StyleSheet.create({
     container: {
       flex: 1,
-      alignItems: 'center',
-      paddingTop: 30
+    //   alignItems: 'center',
+    //   flexDirection: 'column',
+      paddingTop: 30,
+      borderWidth: 2,
+      borderColor: '#000'
     },
     backdrop: {
       flex: 1,

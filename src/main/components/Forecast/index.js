@@ -7,7 +7,7 @@ import {
     View
 } from 'react-native';
 
-const styles = require('../style/Forecast.css');
+const styles = require('./style/Forecast.css');
 
 module.exports = class extends Component {
     render() {
