@@ -96,17 +96,16 @@ module.exports = class extends Component {
         // const index = stack.children.length <= 1 ?  1 : stack.index;
 
         return (
-          <View style={styles.container}>
-            <ToolbarAndroid
-              logo={require('image!launcher_icon')}
-              navIcon={require('image!ic_menu_black_24dp')}
-              onIconClicked={() => this.drawer.openDrawer()}
-              style={styles.toolbar}
-              title={title}
-            />
-            <UIExplorerExampleList
-            />
-          </View>
+            <View style={styles.container}>
+                <ToolbarAndroid
+                    logo={require('image!launcher_icon')}
+                    navIcon={require('image!ic_menu_black_24dp')}
+                    onIconClicked={() => this.drawer.openDrawer()}
+                    style={styles.toolbar}
+                    title={title}
+                    />
+                <UIExplorerExampleList />
+            </View>
         );
     }
 

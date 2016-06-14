@@ -9,5 +9,5 @@ import {
 
 // AppRegistry.registerComponent('index', () => require("./src/main/index"));
 // AppRegistry.registerComponent('index', () => require("./src/main/WeatherProject"));
-// AppRegistry.registerComponent('index', () => require("./src/main/demo"));
-AppRegistry.registerComponent('index', () => require("./src/main/uiexplorer"));
+AppRegistry.registerComponent('index', () => require("./src/main/demo"));
+// AppRegistry.registerComponent('index', () => require("./src/main/uiexplorer"));

@@ -9,6 +9,6 @@ import {
 
 // var demo = require('./components/Demo');
 // var demo = require('./components/FlexDemo');
-var demo = require('./components/BlockDemo');
+var demo = require('./components/Touch');
 
 module.exports = demo;

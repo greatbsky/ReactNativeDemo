@@ -9,14 +9,14 @@ import {
 
 const styles = require('./style/index.css');
 
-module.exports = class extends Component {
+module.exports = class UIExplorerExampleList extends Component {
     render() {
         return (
-          <View>
-            <Text style={styles.bigText}>
-              this is UIExplorerExampleList
-            </Text>
-          </View>
+            <View>
+                <Text style={styles.bigText}>
+                    this is UIExplorerExampleList
+                </Text>
+            </View>
         );
   }
 }
